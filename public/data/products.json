@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "title": "Blazer #1",
+    "category": "Blazer",
+    "price": 13.99,
+    "rating": 3.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Blazer/00b8048d-635e-4e56-b182-071fb24eea32.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Blazer #2",
+    "category": "Blazer",
+    "price": 14.99,
+    "rating": 3.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Blazer/01a54355-b591-45e9-a248-175f483369cf.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Blazer #3",
+    "category": "Blazer",
+    "price": 15.99,
+    "rating": 3.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Blazer/1set_blazzer_3in1_1655027046_c4c28d3a_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Blazer #4",
+    "category": "Blazer",
+    "price": 16.99,
+    "rating": 3.4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Blazer/2ca50463-77b2-41ca-a96d-7a2d2d7fca5a.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Blazer #5",
+    "category": "Blazer",
+    "price": 17.99,
+    "rating": 3.5,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Blazer/_gratis_ongkir_jkt__bali_gaudi_1684934486_81f1993a_progressive.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Hoodie #6",
+    "category": "Hoodie",
+    "price": 18.99,
+    "rating": 3.6,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Hoodie/halfzip_hoodie_awk_1697034196_0d90db76_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Hoodie #7",
+    "category": "Hoodie",
+    "price": 19.99,
+    "rating": 3.7,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Hoodie/have_a_good_time_small_frame_h_1696995560_1bb72942_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Hoodie #8",
+    "category": "Hoodie",
+    "price": 20.99,
+    "rating": 3.8,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Hoodie/hoodie_adidas_camo_1696947871_aeca6d2a_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Hoodie #9",
+    "category": "Hoodie",
+    "price": 21.99,
+    "rating": 3.9,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Hoodie/hoodie_adidas_original_1696909600_2e7f9b17_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Hoodie #10",
+    "category": "Hoodie",
+    "price": 22.99,
+    "rating": 4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Hoodie/hoodie_adidas_shmoo_legacy_gre_1696917537_3dee42b0_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Jaket #11",
+    "category": "Jaket",
+    "price": 23.99,
+    "rating": 4.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_reborn__audi_hita_1692870832_39a7fd4b_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Jaket #12",
+    "category": "Jaket",
+    "price": 24.99,
+    "rating": 4.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_reversible_flyers_1668514876_3ec88ebc_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Jaket #13",
+    "category": "Jaket",
+    "price": 25.99,
+    "rating": 4.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_reversible_nike_b_1664300502_bfc1e897_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Jaket #14",
+    "category": "Jaket",
+    "price": 26.99,
+    "rating": 4.4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_sesame_street_bek_1691434827_75d8adb5_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Jaket #15",
+    "category": "Jaket",
+    "price": 27.99,
+    "rating": 4.5,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_stone_island_beka_1639318678_c436aecd_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Jaket #16",
+    "category": "Jaket",
+    "price": 28.99,
+    "rating": 4.6,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_sukajan_dragom_xg_1693316913_584a361a_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Jaket #17",
+    "category": "Jaket",
+    "price": 29.99,
+    "rating": 4.7,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket/jaket_bomber_te_army_bekas_sec_1691432604_14a953fd_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Jaket Denim #18",
+    "category": "Jaket Denim",
+    "price": 30.99,
+    "rating": 4.8,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/a04270d0-c1f1-4f31-93cc-8555ac708ec4.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Jaket Denim #19",
+    "category": "Jaket Denim",
+    "price": 31.99,
+    "rating": 4.9,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/a1bfd604-f422-444e-81c3-b822ade97d73.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Jaket Denim #20",
+    "category": "Jaket Denim",
+    "price": 32.99,
+    "rating": 3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/a1d8cba7-193b-48ef-ba84-da551156b40c.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Jaket Denim #21",
+    "category": "Jaket Denim",
+    "price": 33.99,
+    "rating": 3.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/abercrombie_denim_jacket_1696394727_281df340_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Jaket Denim #22",
+    "category": "Jaket Denim",
+    "price": 34.99,
+    "rating": 3.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/abercrombie__fitch_denim_jacke_1694791107_7366f82f_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Jaket Denim #23",
+    "category": "Jaket Denim",
+    "price": 35.99,
+    "rating": 3.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/abx_hickory_denim_chore_jacket_1696587527_443fad3e_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Jaket Denim #24",
+    "category": "Jaket Denim",
+    "price": 36.99,
+    "rating": 3.4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/aigle_denim_chore_jacket_1696408369_3dbbf6a6_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Jaket Denim #25",
+    "category": "Jaket Denim",
+    "price": 37.99,
+    "rating": 3.5,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jaket_Denim/american_eagle_mens_med_distre_1695567273_dcbb6f21_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Jeans #26",
+    "category": "Jeans",
+    "price": 38.99,
+    "rating": 3.6,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/08973288-3d8b-4c07-9f2d-ce1392da54be.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Jeans #27",
+    "category": "Jeans",
+    "price": 39.99,
+    "rating": 3.7,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Jeans/43976040-49b3-4e59-8b6a-8ceb4d814d4a.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Jeans #28",
+    "category": "Jeans",
+    "price": 40.99,
+    "rating": 3.8,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/82387448-c860-4b92-b055-a9ae4d060ef9.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Jeans #29",
+    "category": "Jeans",
+    "price": 41.99,
+    "rating": 3.9,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/a0f299ab-2cb4-44ea-9a0b-f7d0204b49cf.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Jeans #30",
+    "category": "Jeans",
+    "price": 42.99,
+    "rating": 4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/a16e3408-8423-4f5d-a8be-fc09a64db35c.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Jeans #31",
+    "category": "Jeans",
+    "price": 43.99,
+    "rating": 4.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/a19ddb4a-41f1-4260-a1f7-05e9d96f7b44.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Jeans #32",
+    "category": "Jeans",
+    "price": 44.99,
+    "rating": 4.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/a22e0c5c-1b08-46a4-b092-5e87a2bcee88.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Jeans #33",
+    "category": "Jeans",
+    "price": 45.99,
+    "rating": 4.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Jeans/a8a1f779-0234-4c3e-9afb-2d81102fe27f.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Polo #34",
+    "category": "Polo",
+    "price": 46.99,
+    "rating": 4.4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/0cab4de0-5818-4680-a00a-35dbc6e95525.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Polo #35",
+    "category": "Polo",
+    "price": 47.99,
+    "rating": 4.5,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/1a313444-17de-43ff-8a75-d02a81edbef4.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Polo #36",
+    "category": "Polo",
+    "price": 48.99,
+    "rating": 4.6,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Polo/1b2a7169-fb57-4b9e-9990-ae92a02305a1.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Polo #37",
+    "category": "Polo",
+    "price": 49.99,
+    "rating": 4.7,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/1c0db814-f31c-42e6-a00c-0b18a819bef6.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Polo #38",
+    "category": "Polo",
+    "price": 50.99,
+    "rating": 4.8,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/2c2188ab-3a18-4d1c-9103-f1d109061cc3.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Polo #39",
+    "category": "Polo",
+    "price": 51.99,
+    "rating": 4.9,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/2df8bf1f-6d89-4acd-b6f6-9daec6b61b95.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Polo #40",
+    "category": "Polo",
+    "price": 52.99,
+    "rating": 3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/2fabbb28-f7b2-4da2-89cf-7937da3c6f67.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Polo #41",
+    "category": "Polo",
+    "price": 53.99,
+    "rating": 3.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Polo/3c46e4cc-0254-44bd-87af-3627981ab4c1.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Rok #42",
+    "category": "Rok",
+    "price": 54.99,
+    "rating": 3.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/00fc9948-363d-41dd-98c2-e6be140f543f.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Rok #43",
+    "category": "Rok",
+    "price": 55.99,
+    "rating": 3.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/0ab26941-211e-44d7-a62a-20207fa7a3e0.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Rok #44",
+    "category": "Rok",
+    "price": 56.99,
+    "rating": 3.4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/0ba71e2a-4941-4c09-952e-e32895840d34.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Rok #45",
+    "category": "Rok",
+    "price": 57.99,
+    "rating": 3.5,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Rok/0da586b0-bbfb-44fd-a629-12aee2b1d430.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Rok #46",
+    "category": "Rok",
+    "price": 58.99,
+    "rating": 3.6,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/0f8c39ba-e2b1-4c94-be5e-6ac2d924f7ed.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Rok #47",
+    "category": "Rok",
+    "price": 59.99,
+    "rating": 3.7,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/1d08ddfe-dfd4-4bf9-81a7-9cc8dfa2833f.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Rok #48",
+    "category": "Rok",
+    "price": 60.99,
+    "rating": 3.8,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/2a79969e-c45d-432f-a62b-90970e4d909f.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Rok #49",
+    "category": "Rok",
+    "price": 61.99,
+    "rating": 3.9,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/2ac96388-4353-44b6-a174-de2f2523afd1.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Rok #50",
+    "category": "Rok",
+    "price": 62.99,
+    "rating": 4,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/2_pcs_long_pleated_skirt_1696656465_f41e3054_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Rok #51",
+    "category": "Rok",
+    "price": 63.99,
+    "rating": 4.1,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Rok/_summer_beach_skirt__1697045086_0723f1fa_progressive_thumbnail.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Sweter #52",
+    "category": "Sweter",
+    "price": 64.99,
+    "rating": 4.2,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/0a671f9d-d105-4ec9-8642-f4f228f8a90f.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Sweter #53",
+    "category": "Sweter",
+    "price": 65.99,
+    "rating": 4.3,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/0b7dc2e9-a9e9-46ed-b4e2-8b91e1e720b0.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Sweter #54",
+    "category": "Sweter",
+    "price": 66.99,
+    "rating": 4.4,
+    "inStock": false,
+    "image": "/images/Clothes_Dataset/Sweter/0bd7a506-9042-4dfc-b061-0a8279c887bb.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Sweter #55",
+    "category": "Sweter",
+    "price": 67.99,
+    "rating": 4.5,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/0c4fe429-cc94-49a1-b6b3-6660957db97b.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Sweter #56",
+    "category": "Sweter",
+    "price": 68.99,
+    "rating": 4.6,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/5d11e46b-e897-4d03-bc7d-455e49800edf.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Sweter #57",
+    "category": "Sweter",
+    "price": 69.99,
+    "rating": 4.7,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/5d967f14-724a-4f6a-ae2b-f34287c85ce0.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Sweter #58",
+    "category": "Sweter",
+    "price": 70.99,
+    "rating": 4.8,
+    "inStock": true,
+    "image": "/images/Clothes_Dataset/Sweter/5e1c56ce-c32c-4056-9278-864773ae2024.jpg"
+  }
+]
