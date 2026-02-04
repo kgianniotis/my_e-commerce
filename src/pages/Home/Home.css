@@ -1,0 +1,14 @@
+.subTitle{
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+}
+
+.catalogArea{
+  align-items: center;
+  text-align: center;
+}
+
+.catalogButton:hover{
+ cursor: pointer;
+}

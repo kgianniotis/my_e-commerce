@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
+import "./Catalog.css";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div>
-      <h2>Products</h2>
+      <p className="subTitle">Explore our Catalog</p>
 
       <input
         className="searchBar"
