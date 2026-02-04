@@ -27,6 +27,12 @@ export default function Home() {
     <div>
       <p className="subTitle">Explore our Catalog</p>
 
+      <div style={{ textAlign: "center" }}>
+        <Link to="/">
+          <button>Home</button>
+        </Link>
+      </div>
+
       <input
         className="searchBar"
         value={query}
