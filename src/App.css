@@ -3,3 +3,19 @@
     font-size: 35px;
     text-align: center;
 }
+
+body {
+  margin: 0;
+}
+
+.appShell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+}
+
+.appMain {
+  flex: 1;
+  padding: 24px;
+}

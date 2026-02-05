@@ -1,17 +1,22 @@
 import { Routes, Route, Link } from "react-router-dom";
+import Layout from "./Layout";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Catalog from "./pages/Catalog/Catalog";
 
 export default function App() {
   return (
-    <div style={{ fontFamily: "system-ui", padding: 24 }}>
+    <div>
       <p className="title">My e-commerce</p>
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="catalog" element={<Catalog />} />
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="catalog" element={<Catalog />} />
+            {/* <Route path="cart" element={<Cart />} />
+            <Route path="sales" element={<Sales />} /> */}
+          </Route>
         </Routes>
       </main>
     </div>
