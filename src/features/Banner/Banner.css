@@ -1,32 +1,4 @@
-.banner {
-  width: 100%;
-  overflow: hidden;
-  background-color:brown;
-  color: rgb(0, 0, 0);
-  padding: 12px 0;
-}
-
-.bannerTrack {
-  display: flex;
-  width: fit-content;
-  animation: scrollRight 18s linear infinite;
-}
-
-.bannerText {
-  white-space: nowrap;
-  font-size: 14px;
-}
-
-.banner:hover .bannerTrack {
-  animation-play-state: paused;
-}
-
-
-@keyframes scrollRight {
-  from {
-    transform: translateX(-50%);
-  }
-  to {
-    transform: translateX(0%);
-  }
+.marqueeBanner{
+    background-color: brown;
+    padding: 10px;
 }
