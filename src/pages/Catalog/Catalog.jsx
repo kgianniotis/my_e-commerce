@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Catalog.css";
+import SearchBar from "../../features/searchBar/SearchBar";
 
-export default function Home() {
+export default function Catalog() {
   const [products, setProducts] = useState([]);
   const [query, setQuery] = useState("");
 
@@ -33,10 +34,10 @@ export default function Home() {
         </Link>
       </div>
 
-      <input
-        className="searchBar"
+      {/* SearchBar Component */}
+      <SearchBar
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={setQuery}
         placeholder="Search by title or category..."
       />
 

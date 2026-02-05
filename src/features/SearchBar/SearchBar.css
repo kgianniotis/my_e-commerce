@@ -1,0 +1,5 @@
+.searchBar {
+  padding: 10px;
+  width: min(420px, 100%);
+  margin: 12px 0 18px;
+}
