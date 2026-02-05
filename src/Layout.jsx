@@ -5,9 +5,9 @@ import "./Layout.css";
 
 export default function Layout() {
   return (
-    <div className="appShell">
+    <div>
       <Header />
-      <main className="appMain">
+      <main>
         <Outlet />
       </main>
       <Footer />
