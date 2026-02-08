@@ -28,17 +28,12 @@ export default function Catalog() {
     <div>
       <p className="subTitle">Explore our Catalog</p>
 
-      <div style={{ textAlign: "center" }}>
-        <Link to="/">
-          <button>Home</button>
-        </Link>
-      </div>
-
       {/* SearchBar Component */}
       <SearchBar
         value={query}
         onChange={setQuery}
         placeholder="Search by title or category..."
+        className="searchBar"
       />
 
       <div className="itemsHome">

@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footerLeft">
-        <p className="footerDisclaimer">Testing website</p>
+        <p className="footerDisclaimer">
+          This Website is for testing purposes only.
+        </p>
       </div>
 
       <div className="footerRight">

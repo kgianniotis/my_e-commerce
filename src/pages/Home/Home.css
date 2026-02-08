@@ -4,11 +4,44 @@
   text-align: center;
 }
 
-.catalogArea{
-  align-items: center;
+.catalogArea {
   text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f5ec;
 }
 
-.catalogButton:hover{
- cursor: pointer;
+.catalogButtonTitle {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #3b2f1e;
+}
+
+.catalogButton {
+  background-color: #3b2f1e;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  font-size: 16px;
+}
+
+.catalogButton:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.welcomeSection {
+
+  background-image: url("../../../public/images/Clothes_Dataset/Blazer/01a54355-b591-45e9-a248-175f483369cf.jpg");
+
+
+
+  height: 45vh;
+  min-height: 300px;
+  background-size: 250px;
+  background-repeat: repeat;
+  background-position: top left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

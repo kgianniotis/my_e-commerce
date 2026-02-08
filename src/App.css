@@ -1,8 +1,18 @@
-.title{
-    font-weight: 500;
-    font-size: 35px;
-    text-align: center;
+.title {
+  margin: 0;
+  padding: 14px 16px;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: end;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 61%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
 }
+
 
 body {
   margin: 0;

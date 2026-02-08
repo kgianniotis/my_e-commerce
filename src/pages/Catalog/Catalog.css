@@ -46,3 +46,10 @@
   margin-top: 6px;
   font-weight: 600;
 }
+
+.searchBar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+

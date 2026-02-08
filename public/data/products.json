@@ -6,7 +6,9 @@
     "price": 13.99,
     "rating": 3.1,
     "inStock": true,
-    "image": "/images/Clothes_Dataset/Blazer/00b8048d-635e-4e56-b182-071fb24eea32.jpg"
+    "salePrice": 10.99,
+    "image": "/images/Clothes_Dataset/Blazer/00b8048d-635e-4e56-b182-071fb24eea32.jpg",
+    "description": "lorem ipsum"
   },
   {
     "id": 2,
@@ -33,6 +35,7 @@
     "price": 16.99,
     "rating": 3.4,
     "inStock": true,
+    "salePrice": 11.99,
     "image": "/images/Clothes_Dataset/Blazer/2ca50463-77b2-41ca-a96d-7a2d2d7fca5a.jpg"
   },
   {
@@ -69,6 +72,7 @@
     "price": 20.99,
     "rating": 3.8,
     "inStock": true,
+    "salePrice": 15.99,
     "image": "/images/Clothes_Dataset/Hoodie/hoodie_adidas_camo_1696947871_aeca6d2a_progressive_thumbnail.jpg"
   },
   {
