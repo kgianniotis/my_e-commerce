@@ -4,6 +4,8 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Catalog from "./pages/Catalog/Catalog";
 import Product from "./pages/Product/Product";
+import Login from "./pages/Login/Login";
+import Signin from "./pages/Signin/Signin";
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="catalog" element={<Catalog />} />
             <Route path="product/:id" element={<Product />} />
+            <Route path="login" element={<Login />} />
+            <Route path="signin" element={<Signin />} />
             {/* <Route path="cart" element={<Cart />} />
             <Route path="sales" element={<Sales />} /> */}
           </Route>
