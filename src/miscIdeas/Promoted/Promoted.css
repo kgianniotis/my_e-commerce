@@ -17,12 +17,17 @@
 
 
 .promotedList{
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
 }
 
+
 .promotedLink{
-    color: inherit;
+  color: inherit;
 }
 
 .saleBadge {

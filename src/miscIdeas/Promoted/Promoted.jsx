@@ -1,38 +1,30 @@
+import { useMemo } from "react";
 import "./Promoted.css";
-import { Link } from "react-router-dom";
+import ProductCard from "../../features/ProductCard/ProductCard";
+import { useProducts } from "../../hooks/useProducts";
 
-export default function Promoted({ saleItems = [] }) {
+export default function Promoted() {
+  const { products, loading, error } = useProducts();
+
+  const saleItems = useMemo(() => {
+    return products.filter(
+      (p) => p.salePrice != null && Number(p.salePrice) < Number(p.price)
+    );
+  }, [products]);
+
+  if (loading) return <p className="subTitle">Loading...</p>;
+  if (error) return <p className="subTitle">Error: {error}</p>;
+
   return (
     <div>
       <p className="subTitle">Take a look at some items on sale!</p>
 
       <ul className="promotedList">
-        {saleItems.map((p) => {
-          const discountPercent = Math.round(
-            ((p.price - p.salePrice) / p.price) * 100,
-          );
-
-          return (
-            <li key={p.id} className="promotedItem">
-              <Link to={`/product/${p.id}`} className="promotedLink">
-                <div className="imageWrapper">
-                  <img src={p.image} alt={p.title} />
-
-                  <div className="saleBadge">SALE -{discountPercent}%</div>
-                </div>
-
-                <div className="info">
-                  <div>{p.title}</div>
-
-                  <div className="prices">
-                    <span className="oldPrice">€{p.price.toFixed(2)}</span>
-                    <span className="salePrice">€{p.salePrice.toFixed(2)}</span>
-                  </div>
-                </div>
-              </Link>
-            </li>
-          );
-        })}
+        {saleItems.map((p) => (
+          <li key={p.id} className="promotedItem">
+            <ProductCard p={p} showSale />
+          </li>
+        ))}
       </ul>
     </div>
   );
