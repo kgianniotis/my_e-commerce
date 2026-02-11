@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
-export default function ProductCard({ p, showSale = false }) {
+export default function ProductCard({ p }) {
   const hasSale =
-    showSale && p.salePrice != null && Number(p.salePrice) < Number(p.price);
+    p.salePrice != null && Number(p.salePrice) < Number(p.price);
 
   const discountPercent = hasSale
     ? Math.round(((p.price - p.salePrice) / p.price) * 100)
@@ -13,9 +13,17 @@ export default function ProductCard({ p, showSale = false }) {
     <Link className="productCardLink" to={`/product/${p.id}`}>
       <div className="productCard">
         <div className="productCardImgWrap">
-          <img className="productCardImg" src={p.image} alt={p.title} loading="lazy" />
+          <img
+            className="productCardImg"
+            src={p.image}
+            alt={p.title}
+            loading="lazy"
+          />
+
           {hasSale && (
-            <div className="productCardBadge">SALE -{discountPercent}%</div>
+            <div className="productCardBadge">
+              SALE -{discountPercent}%
+            </div>
           )}
         </div>
 
@@ -25,12 +33,18 @@ export default function ProductCard({ p, showSale = false }) {
 
           {hasSale ? (
             <div className="productCardPrices">
-              <span className="productCardOld">€{p.price.toFixed(2)}</span>
-              <span className="productCardSale">€{p.salePrice.toFixed(2)}</span>
+              <span className="productCardOld">
+                €{p.price.toFixed(2)}
+              </span>
+              <span className="productCardSale">
+                €{p.salePrice.toFixed(2)}
+              </span>
             </div>
           ) : (
             <div className="productCardPrices">
-              <span className="productCardSale">€{p.price.toFixed(2)}</span>
+              <span className="productCardSale">
+                €{p.price.toFixed(2)}
+              </span>
             </div>
           )}
         </div>
